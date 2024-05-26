@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijaya Packaging Industries</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+
+        .hero {
+            background: url('images/hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+
+        .hero-content h1 {
+            font-size: 2.5em;
+            margin: 0;
+            animation: slideIn 1s ease-in-out;
+        }
+
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+
+        .hero-content p {
+            font-size: 1.2em;
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in-out 0.5s;
+        }
+
+
+        .hero-content button {
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            background: #ff5722;
+            color: #fff;
+            cursor: pointer;
+            animation: bounce 2s infinite;
+        }
+
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+
+
+        .features, .products, .clientele {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+
+        .features h2, .products h2, .clientele h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+
+        .feature, .product-category {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+
+        .feature img, .product-category img {
+            width: 100%;
+            height: auto;
+        }
+
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Vijaya Packaging Industries: Leading Corrugated Box Manufacturers In Central India</h1>
+                <p>We are one of the leading corrugated box manufacturers in India with an experience of more than 25 years.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+        <section class="features">
+            <h2>Key Features Of The Plant</h2>
+            <div class="feature">
+                <img src="images/feature-1.jpg" alt="Feature 1">
+                <h3>State-of-the-Art manufacturing facility with an installed capacity of 30000MT per annum.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature-2.jpg" alt="Feature 2">
+                <h3>Mitsubishi 5-Ply Corrugator with A, B & C flutes & Machine Deckle of 226cms</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature-3.jpg" alt="Feature 3">
+                <h3>2-Colour And 4-Colour Printing Facility with online printer, slotter, folder, gluer & bundling arrangement</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature-4.jpg" alt="Feature 4">
+                <h3>Most modern testing facility with a dedicated R & D centre</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature">
+                <img src="images/feature-5.jpg" alt="Feature 5">
+                <h3>Pan India customer base with more than 25 years of experience</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </section>
+        <section class="products">
+            <h2>Our Products</h2>
+            <div class="product-category">
+                <h3>Carton Boxes</h3>
+                <img src="images/carton-boxes.jpg" alt="Carton Boxes">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="product-category">
+                <h3>Interlocking Boxes</h3>
+                <img src="images/interlocking-boxes.jpg" alt="Interlocking Boxes">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="product-category">
+                <h3>Telescopic Boxes</h3>
+                <img src="images/telescopic-boxes.jpg" alt="Telescopic Boxes">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="product-category">
+                <h3>Duplex Boxes</h3>
+                <img src="images/duplex-boxes.jpg" alt="Duplex Boxes">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </section>
+        <section class="clientele">
+            <h2>Clientele</h2>
+            <p>We cater to all kinds of industries right from FMCG to Pharmaceuticals and White Goods to Explosives.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Vijaya Packaging Industries</p>
+    </footer>
+</body>
+</html>
+
